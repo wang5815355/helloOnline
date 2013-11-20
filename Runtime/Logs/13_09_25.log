@@ -1,0 +1,1066 @@
+[ 2013-09-25T00:00:02+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003309s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003298s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000182s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000141s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 473 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015806s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000773s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2013-09-25T00:00:16+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003348s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002856s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000215s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000168s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 473 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014858s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000799s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000858s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2013-09-25T00:00:31+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003252s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003024s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000198s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 473 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000694s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2013-09-25T00:00:45+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.039151s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.005156s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000371s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000250s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 473 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025604s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000636s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2013-09-25T00:01:21+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003346s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002988s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000176s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000141s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 473 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013408s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000689s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000602s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002695s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000793s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2013-09-25T00:01:48+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003286s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003104s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000288s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000165s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 473 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012519s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000552s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002181s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2013-09-25T00:02:06+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003474s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003174s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000258s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 473 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013727s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002454s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2013-09-25T00:04:23+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003586s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002995s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000172s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014195s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000668s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000507s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2013-09-25T00:04:34+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003162s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003438s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000193s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000125s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000687s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000611s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002752s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2013-09-25T00:04:59+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003644s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003323s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000232s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000168s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000488s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002185s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2013-09-25T00:05:22+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003244s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002884s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000236s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000146s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013754s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000695s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000699s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003009s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2013-09-25T00:05:40+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003240s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002880s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000208s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000181s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013419s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002199s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2013-09-25T00:07:38+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003347s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003143s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000240s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000160s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000675s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000602s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002597s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2013-09-25T00:08:16+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003380s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002841s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000190s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000142s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000693s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000606s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2013-09-25T00:08:26+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003154s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002737s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000202s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000141s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013780s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000626s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2013-09-25T00:09:01+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003199s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002669s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000204s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000154s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2013-09-25T00:09:16+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003575s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002975s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000193s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000141s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015031s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002233s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2013-09-25T00:09:46+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003391s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002920s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000161s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000116s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013589s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000599s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2013-09-25T00:09:57+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003321s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002976s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000204s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000157s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014465s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000696s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002664s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2013-09-25T00:10:06+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003344s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003018s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000191s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000143s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2013-09-25T00:10:16+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003066s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002781s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000183s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012861s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000492s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002178s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2013-09-25T00:10:45+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003344s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003011s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000195s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000141s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013830s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000654s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002691s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2013-09-25T00:11:01+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003453s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002807s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000304s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000172s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013751s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000704s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000615s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002675s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2013-09-25T00:11:09+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003323s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003189s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000229s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000174s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000573s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002196s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2013-09-25T00:11:38+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003129s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002737s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000166s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013145s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000574s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002215s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000796s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2013-09-25T00:12:40+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.246078s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.005420s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000355s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000585s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024422s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002277s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2013-09-25T00:12:50+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003350s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002850s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000189s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000139s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013132s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000590s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000569s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002656s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2013-09-25T00:14:06+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:1.148433s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003389s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000245s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000181s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000802s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2013-09-25T00:15:24+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003198s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002704s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000210s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 475 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013991s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000800s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003338s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2013-09-25T00:16:31+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003332s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002613s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000161s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 479 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013694s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000675s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000599s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000774s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2013-09-25T00:16:46+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003082s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002794s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000259s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000266s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 478 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000686s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000608s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2013-09-25T00:17:31+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003187s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.030748s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000248s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000182s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 478 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000706s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002933s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2013-09-25T00:19:12+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003609s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002882s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000167s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000122s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 478 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013677s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000681s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2013-09-25T00:20:21+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.044990s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.006432s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000459s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000277s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 481 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022845s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000986s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001313s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2013-09-25T00:21:28+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004025s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002889s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000166s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000121s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 481 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013755s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000692s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002629s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2013-09-25T00:21:55+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003508s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002760s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000198s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000211s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 479 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014234s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000799s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002918s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2013-09-25T00:22:05+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003284s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003040s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000204s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000155s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 479 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013018s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002314s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2013-09-25T00:22:13+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003642s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002858s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000233s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000159s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 479 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000570s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000731s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002585s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2013-09-25T00:22:20+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003206s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.003159s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000229s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000147s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 479 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000487s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002165s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2013-09-25T00:22:33+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003332s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002736s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000186s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000139s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 479 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014147s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2013-09-25T00:22:51+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003331s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `hello_friend` [ RunTime:0.002960s ]
+SQL: SELECT `femail` FROM `hello_friend`  [ RunTime:0.000176s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\wamp\www\hello\ThinkPHP\Lib\Core\Db.class.php 第 497 行.
+SQL: SELECT * FROM `hello_user` WHERE ( `email` IN () )  [ RunTime:0.000121s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `hello_user` WHERE ( `email` IN () ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: slide1 E:\wamp\www\hello\Runtime\Cache\b42df3d294fe8fb76fbe1db7ccd52452.php 第 479 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000679s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000890s ]
+

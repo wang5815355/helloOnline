@@ -1,0 +1,1207 @@
+[ 2013-08-19T14:20:27+08:00 ] 127.0.0.1 /hello/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005888s ]
+
+[ 2013-08-19T16:04:35+08:00 ] 127.0.0.1 /hello/index.php/Index/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.022778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.022909s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008961s ]
+ERR: 非法操作:index.php
+
+[ 2013-08-19T16:04:45+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.106611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.013050s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031174s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010680s ]
+
+[ 2013-08-19T16:04:46+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+
+[ 2013-08-19T16:07:10+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001744s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000908s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001085s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004407s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001517s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2013-08-19T16:07:10+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002512s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+
+[ 2013-08-19T16:07:19+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021305s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000810s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000711s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003161s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2013-08-19T16:07:19+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002479s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+
+[ 2013-08-19T16:07:24+08:00 ] 127.0.0.1 /hello/index.php/Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.082133s ]
+NOTIC: [8] Undefined index: password D:\wamp\www\hello\Lib\Action\PublicAction.class.php 第 20 行.
+
+[ 2013-08-19T16:08:57+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000808s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000717s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003954s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2013-08-19T16:08:58+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001694s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+
+[ 2013-08-19T16:09:02+08:00 ] 127.0.0.1 /hello/index.php/Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.005337s ]
+NOTIC: [8] Undefined index: password D:\wamp\www\hello\Lib\Action\PublicAction.class.php 第 20 行.
+
+[ 2013-08-19T16:10:35+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012393s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000817s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000974s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003507s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2013-08-19T16:10:35+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+
+[ 2013-08-19T16:11:28+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001138s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012755s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000995s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000941s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000743s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003884s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2013-08-19T16:11:28+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+
+[ 2013-08-19T17:07:32+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004481s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.035685s ]
+
+[ 2013-08-19T17:07:42+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004373s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '3938679126@qq.com' ) LIMIT 1   [ RunTime:0.000498s ]
+
+[ 2013-08-19T17:07:44+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003603s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '3938679126@qq.com' ) LIMIT 1   [ RunTime:0.000409s ]
+
+[ 2013-08-19T17:08:28+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004591s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '3938679126@qq.com' ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: INSERT INTO `hello_user` (`uname`,`email`,`password`,`phonenumber`) VALUES ('王凯','3938679126@qq.com','5df4319a5779e372698042399bc72491fc7af36c','15820781327') [ RunTime:0.046661s ]
+NOTIC: [2] mail() [<a href='function.mail'>function.mail</a>]: SMTP server response: 553 You are not authorized to send mail, authentication is required f08a5291-a014-4c67-a5f9-f6e63b47c84a D:\wamp\www\hello\Lib\Action\PublicAction.class.php 第 134 行.
+
+[ 2013-08-19T17:08:28+08:00 ] 127.0.0.1 /hello/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+
+[ 2013-08-19T17:08:28+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015149s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001035s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003876s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2013-08-19T17:08:28+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+
+[ 2013-08-19T17:10:25+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003746s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000380s ]
+
+[ 2013-08-19T17:10:48+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004117s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000448s ]
+
+[ 2013-08-19T17:11:09+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003716s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000379s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:11:10+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004055s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000571s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:11:11+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004722s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000617s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:11:12+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001144s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004070s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000471s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:11:12+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003632s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000389s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:11:16+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004617s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000436s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:17:03+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004419s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000461s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:18:10+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004597s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000653s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:19:31+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003838s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000616s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:20:04+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004488s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000435s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:22:08+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003831s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000449s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:24:55+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022798s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000792s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2013-08-19T17:24:55+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001568s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+
+[ 2013-08-19T17:25:21+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004260s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000530s ]
+
+[ 2013-08-19T17:26:38+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003735s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000450s ]
+
+[ 2013-08-19T17:30:36+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004382s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000723s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:31:36+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003690s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000469s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:32:48+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004456s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000626s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:32:55+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003853s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000465s ]
+
+[ 2013-08-19T17:38:11+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004989s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000490s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:38:24+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003855s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000652s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:39:04+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004538s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000417s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:39:57+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003787s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000370s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:41:02+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004616s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000422s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:41:17+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.011545s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000437s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 253 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 202 行.
+
+[ 2013-08-19T17:44:11+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001511s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004708s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000588s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 252 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 261 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 252 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 261 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+
+[ 2013-08-19T17:45:46+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000929s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004099s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000395s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 252 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 261 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 252 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 261 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 262 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 201 行.
+
+[ 2013-08-19T17:55:16+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001545s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000761s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000507s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2013-08-19T17:55:16+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+
+[ 2013-08-19T17:55:19+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012846s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000926s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000721s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003122s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2013-08-19T17:55:19+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001531s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+
+[ 2013-08-19T17:55:22+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011946s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000809s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000648s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2013-08-19T17:55:22+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2013-08-19T17:55:44+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002444s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2013-08-19T17:55:44+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+
+[ 2013-08-19T17:55:49+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010624s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000490s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000357s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2013-08-19T17:55:49+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+
+[ 2013-08-19T17:55:54+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019609s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001022s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000911s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000999s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2013-08-19T17:55:54+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+
+[ 2013-08-19T17:56:01+08:00 ] 127.0.0.1 /hello/index.php/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2013-08-19T17:56:01+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+
+[ 2013-08-19T17:56:33+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/?0.013188414508476853
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2013-08-19T17:56:34+08:00 ] 127.0.0.1 /hello/index.php/Public/verify/?0.8760109154973179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2013-08-19T18:24:08+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.004978s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000535s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 254 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 264 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 44 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 45 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 254 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 263 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 264 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\hello\Lib\Action\Mailer.class.php 第 203 行.
+
+[ 2013-08-19T18:35:47+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.003683s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000797s ]
+
+[ 2013-08-19T18:48:05+08:00 ] 127.0.0.1 /hello/index.php/Public/registerIn
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001637s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.005055s ]
+SQL: SELECT * FROM `hello_user` WHERE ( `email` = '393867916@qq.com' ) LIMIT 1   [ RunTime:0.000587s ]
+
