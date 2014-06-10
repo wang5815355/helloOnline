@@ -1,14 +1,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-<link type="text/css" href="__ROOT__/Public/css/bootstrap-responsive.css" rel="stylesheet">
-<link type="text/css" href="__ROOT__/Public/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<script type="text/javascript" src="__ROOT__/Public/js/jquery.js"></script>
-<script type="text/javascript" src="__ROOT__/Public/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 checkVideo();
 function checkVideo()
 {
 if(!!document.createElement('video').canPlayType)
   {
+  location.href='/';
   var vidTest=document.createElement("video");
   oggTest=vidTest.canPlayType('video/ogg; codecs="theora, vorbis"');
   if (!oggTest)
@@ -16,31 +13,37 @@ if(!!document.createElement('video').canPlayType)
     h264Test=vidTest.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');
     if (!h264Test)
       {
-    	location.href='__ROOT__/error.html';
       }
     else
       {
+      location.href='/';
       if (h264Test=="probably")
         {
         }
       else
         {
+        location.href='/';
         }
       }
     }
   else
     {
+    location.href='/';
     if (oggTest=="probably")
       {
       }
     else
       {
+      location.href='/';
       }
     }
   }
 else
   {
-	location.href='__ROOT__/error.html';
   }
 }
 </script>
+<body>
+你用的浏览器太烂了 估计你个农民也是在用ie 用个好点的再来访问吧。。。。
+建议用最新版的 360极速 或是360安全 或是chrom saifare 各种最新浏览器
+</body>

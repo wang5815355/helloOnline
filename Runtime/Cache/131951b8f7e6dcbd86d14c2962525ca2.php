@@ -1,8 +1,53 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 <title>密码设置</title>
-<include file="./Tpl/Include/header.html"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+<link type="text/css" href="__ROOT__/Public/css/bootstrap-responsive.css" rel="stylesheet">
+<link type="text/css" href="__ROOT__/Public/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="__ROOT__/Public/js/jquery.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+checkVideo();
+function checkVideo()
+{
+if(!!document.createElement('video').canPlayType)
+  {
+  var vidTest=document.createElement("video");
+  oggTest=vidTest.canPlayType('video/ogg; codecs="theora, vorbis"');
+  if (!oggTest)
+    {
+    h264Test=vidTest.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');
+    if (!h264Test)
+      {
+    	location.href='__ROOT__/error.html';
+      }
+    else
+      {
+      if (h264Test=="probably")
+        {
+        }
+      else
+        {
+        }
+      }
+    }
+  else
+    {
+    if (oggTest=="probably")
+      {
+      }
+    else
+      {
+      }
+    }
+  }
+else
+  {
+	location.href='__ROOT__/error.html';
+  }
+}
+</script>
 <style type="text/css">
 		body{
     		background-color: rgb(28,151,223);

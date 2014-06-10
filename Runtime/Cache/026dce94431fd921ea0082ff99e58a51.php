@@ -1,8 +1,53 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
   <head lang="en">
     <title>Hello</title>
- 	<include file="./Tpl/Include/header.html"/>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+<link type="text/css" href="__ROOT__/Public/css/bootstrap-responsive.css" rel="stylesheet">
+<link type="text/css" href="__ROOT__/Public/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="__ROOT__/Public/js/jquery.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+checkVideo();
+function checkVideo()
+{
+if(!!document.createElement('video').canPlayType)
+  {
+  var vidTest=document.createElement("video");
+  oggTest=vidTest.canPlayType('video/ogg; codecs="theora, vorbis"');
+  if (!oggTest)
+    {
+    h264Test=vidTest.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');
+    if (!h264Test)
+      {
+    	location.href='__ROOT__/error.html';
+      }
+    else
+      {
+      if (h264Test=="probably")
+        {
+        }
+      else
+        {
+        }
+      }
+    }
+  else
+    {
+    if (oggTest=="probably")
+      {
+      }
+    else
+      {
+      }
+    }
+  }
+else
+  {
+	location.href='__ROOT__/error.html';
+  }
+}
+</script>
     <style type="text/css">
     html,body{
 				margin:0px;
@@ -335,9 +380,8 @@
       		    var rName = $(".rName").val().trim();
       		    var rPhone = $(".rPhone").val().trim();
       		    var rVerify = $(".rVerify").val().trim();
-      		    var areaCode = $("#areacode").val().trim();
 
-      		    if(areaCode != '' && rEmail != '' && rPassword != '' && rName != '' && rPhone != '' && rVerify != ''){
+      		    if(rEmail != '' && rPassword != '' && rName != '' && rPhone != '' && rVerify != ''){
       		    	//点击提交注册后显示加载进度条 注册按钮失效
       		    	$('#registerBtn').attr("disabled",true);
           		    $('#registerBtn').html("<img src='__ROOT__/Public/img/ajax-loader.gif' class='loader-gif'>");
@@ -348,9 +392,7 @@
       		    		      Password:rPassword,
       		    		      Name:rName,
       		    		      Phone:rPhone,
-      		    		      Verify:rVerify,
-      		    		      AreaCode:areaCode
-      		    		      },
+      		    		      Verify:rVerify},
  	     	    			  function(data,status){
  	     					  	//解析服务端返回的json数据
  	     	    			  	$('.alert-info').html(data['info']);
@@ -487,8 +529,8 @@
   	<div class="starbg-hidden starbg-hidden-all">
   	</div>
   	<div class="starbg-hidden-cover starbg-hidden-all">
-  		<p class='starbg-font starbg-font-1' id="starbg-font-1" style="display:none; margin-top:370px;"> 如果TA换号了 也许你能找到你老相好的联系电话</p>
-  		<p class='starbg-font starbg-font-2' id="starbg-font-2" style="display:none; margin-top:370px;"> 或者让你老相好未来能联系到你  就这么简单 </p>
+  		<p class='starbg-font starbg-font-1' id="starbg-font-1" style="display:none; margin-top:370px;">哥丢了n多手机 一个个通知别人换号是件麻烦事~</p>
+  		<p class='starbg-font starbg-font-2' id="starbg-font-2" style="display:none; margin-top:370px;"> 哥忙着睡觉呢 ，任何时候要哥电话就上这！</p>
   		<p class='starbg-font starbg-font-3' id="starbg-font-3" style="display:none; font-size:40px; margin-top:370px;">Hello</p>
   	</div>
 
@@ -547,12 +589,8 @@
 								      <input class="span4 rtext rName" type="text" placeholder="真实姓名">
 								    </div>
 									<div class="controls controls-row">
-									  <select class="span2" id="areacoede">
-									  	<option value="86">+86 中国</option>
-									  	<option value="61">+61 Australia</option>
-									  </select>
-									  <!--<input class="span1 input-xlarge" id="disabledInput" type="text" value="0086" disabled>-->
-								      <input class="span2 rtext rPhone" type="text" placeholder="手机号码">
+									  <input class="span1 input-xlarge" id="disabledInput" type="text" value="0086" disabled>
+								      <input class="span3 rtext rPhone" type="text" placeholder="手机号码">
 								    </div>
 								    <div class="controls controls-row">
 								      <img src='/Public/verify/' class="span1 verifyPng" onclick="this.src='/Public/verify/?'+Math.random()"/>

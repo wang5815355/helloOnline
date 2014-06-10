@@ -1,0 +1,453 @@
+[ 2014-03-10T15:59:26+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000853s ]
+
+[ 2014-03-10T16:00:00+08:00 ] 116.25.193.159 /Public/registe
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+ERR: 非法操作:registe
+
+[ 2014-03-10T16:00:21+08:00 ] 116.25.193.159 /Public/registe
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+ERR: 非法操作:registe
+
+[ 2014-03-10T16:00:31+08:00 ] 116.25.193.159 /Public/registe
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+ERR: 非法操作:registe
+
+[ 2014-03-10T16:00:32+08:00 ] 116.25.193.159 /Public/registe
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+ERR: 非法操作:registe
+
+[ 2014-03-10T16:00:35+08:00 ] 116.25.193.159 /Public/registe
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+ERR: 非法操作:registe
+
+[ 2014-03-10T16:00:39+08:00 ] 116.25.193.159 /Public/registe
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+ERR: 非法操作:registe
+
+[ 2014-03-10T16:00:59+08:00 ] 116.25.193.159 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+
+[ 2014-03-10T16:00:59+08:00 ] 116.25.193.159 /Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015789s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2014-03-10T16:01:00+08:00 ] 116.25.193.159 /Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-03-10T16:01:10+08:00 ] 116.25.193.159 /Public/registe
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+ERR: 非法操作:registe
+
+[ 2014-03-10T16:01:31+08:00 ] 116.25.193.159 /Public/js/jquery-2.0.3.min.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+ERR: 非法操作:js
+
+[ 2014-03-10T16:01:37+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000930s ]
+NOTIC: [8] Undefined index:  password /alidata/www/helloOnline/Lib/Action/PublicAction.class.php 第 19 行.
+
+[ 2014-03-10T16:02:29+08:00 ] 116.25.193.159 /Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015088s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002016s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2014-03-10T16:02:33+08:00 ] 116.25.193.159 /Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000549s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000480s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000236s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002197s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000756s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2014-03-10T16:02:36+08:00 ] 116.25.193.159 /Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015181s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2014-03-10T16:05:09+08:00 ] 116.25.195.119 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000893s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000878s ]
+NOTIC: [8] Undefined index:  password /alidata/www/helloOnline/Lib/Action/PublicAction.class.php 第 19 行.
+
+[ 2014-03-10T16:06:19+08:00 ] 116.25.195.119 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.001091s ]
+NOTIC: [8] Undefined index:  password /alidata/www/helloOnline/Lib/Action/PublicAction.class.php 第 19 行.
+
+[ 2014-03-10T16:07:09+08:00 ] 116.25.195.119 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000815s ]
+
+[ 2014-03-10T16:09:47+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.001187s ]
+
+[ 2014-03-10T16:10:42+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000795s ]
+
+[ 2014-03-10T16:10:42+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.001021s ]
+
+[ 2014-03-10T16:10:46+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.001080s ]
+
+[ 2014-03-10T16:10:48+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000934s ]
+
+[ 2014-03-10T16:11:51+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+
+[ 2014-03-10T16:11:51+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000931s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+
+[ 2014-03-10T16:11:57+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2014-03-10T16:13:00+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000801s ]
+
+[ 2014-03-10T16:13:04+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000707s ]
+
+[ 2014-03-10T16:13:47+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000671s ]
+
+[ 2014-03-10T16:15:47+08:00 ] 116.25.195.119 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000920s ]
+
+[ 2014-03-10T16:24:20+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000909s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000929s ]
+NOTIC: [8] Undefined index:  password /alidata/www/helloOnline/Lib/Action/PublicAction.class.php 第 19 行.
+
+[ 2014-03-10T16:29:30+08:00 ] 119.122.154.248 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000771s ]
+
+[ 2014-03-10T16:29:37+08:00 ] 119.122.154.248 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000693s ]
+
+[ 2014-03-10T16:33:19+08:00 ] 116.25.195.209 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000799s ]
+
+[ 2014-03-10T16:33:34+08:00 ] 116.25.195.209 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000967s ]
+
+[ 2014-03-10T16:52:25+08:00 ] 208.67.141.186 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+
+[ 2014-03-10T16:55:21+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000767s ]
+
+[ 2014-03-10T16:56:09+08:00 ] 116.25.195.119 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.001037s ]
+
+[ 2014-03-10T16:57:47+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001333s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000905s ]
+
+[ 2014-03-10T16:57:52+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000946s ]
+
+[ 2014-03-10T16:57:56+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000748s ]
+
+[ 2014-03-10T16:57:57+08:00 ] 116.25.193.159 /Public/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SHOW COLUMNS FROM `hello_user` [ RunTime:0.000703s ]
+
+[ 2014-03-10T19:11:20+08:00 ] 78.188.222.174 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+
+[ 2014-03-10T21:59:18+08:00 ] 162.243.250.93 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+
+[ 2014-03-10T21:59:23+08:00 ] 162.243.250.93 /Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000412s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000231s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000738s ]
+
